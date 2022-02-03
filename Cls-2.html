@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: linen
+        }
+
+        h1 {
+            font-family: Arial;
+            font-weight: bold;
+            background-color: rgb(219, 210, 210);
+        }
+
+        h2 {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        p,
+        pre {
+            font-size: 17px;
+        }
+
+        table {
+            background-color: #F8F8FF;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        tr:hover {
+            background-color: LightBlue;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <blockquote>
+        <center>
+            <h1>C Programming</h1>
+        </center>
+        <h2>Introductions</h2>
+
+<div id=Introductions>
+            <p>
+                C is a general-purpose programming language that is extremely popular, simple, and flexible to use. It
+                is a
+                structured programming language that is machine-independent and extensively used to write various
+                applications,
+                Operating Systems like Windows, and many other complex programs like Oracle database, Git, Python
+                interpreter,
+                and more.It is said that <b>C</b> is a god's programming language. One can say,C is a base for the
+                programming.
+                If you
+                know <b>C</b> you can easily grasp the knowledge of the other programming languages that uses the
+                concept of
+                <b>C</b>It is essential to have a background in computer memory mechanisms because it is an important
+                aspect
+                when
+                dealing with the C programming language.
+
+            </p>
+        </div>
+
+        <h2>History of C</h2>
+
+<div id=History of C>
+
+            <p>C programming language was developed in 1972 by Dennis Ritchie at bell laboratories of AT&T (American
+                Telephone & Telegraph), located in the U.S.A.
+
+                Dennis Ritchie is known as the founder of the c language.
+
+                It was developed to overcome the problems of previous languages such as B, BCPL, etc.Initially, C
+                language
+                was developed to be used in UNIX operating system. It inherits many features of previous languages such
+                as B
+                and BCPL.
+
+                Let's see the programming languages that were developed before C language.
+            </p>
+
+            <img src="8.png" alt="Loading" height="320" width="280" border="1">
+
+<h2>How C Programming Language Works?</h2>
+        <p>C is a compiled language. A compiler is a special tool that compiles the program and converts it into the
+            object
+            file which is machine readable. After the compilation process, the linker will combine different object
+            files
+            and creates a single executable file to run the program. The following diagram shows the execution of a 'C'
+            program<br> <br> <img src="7.png" alt="Loading" border="1"><br>Nowadays, various compilers are available
+            online,
+            and you can use any of those compilers. The functionality will never differ and most of the compilers will
+            provide the features required to execute both 'C' programs.
+
+            Following is the list of popular compilers available online: </p>
+        <ul>
+            <li>Clang compiler</li>
+            <li>MinGW compiler (Minimalist GNU for Windows)</li>
+            <li>Portable 'C' compiler</li>
+            <li>Turbo C</li>
+        </ul>
+
+<h2>Basic Commands of C</h2>
+
+        <div class=Table>
+            <blockquote>
+                <table border="1" width="80%">
+                    <tr>
+                        <th>Commands</th>
+                        <th>Explainations</th>
+                    </tr>
+                    <tr>
+                        <td> #include<stdio.h>
+                        </td>
+                        <td>This command includes standard input output header file(stdio.h) from the C library before
+                            compiling a C
+                            program</td>
+                    </tr>
+                    <tr>
+                        <td>int main()</td>
+                        <td>It is the main function from where C program execution begins.</td>
+                    </tr>
+
+                    <tr>
+                        <td>{</td>
+                        <td>Indicates the beginning of the main function.</td>
+                    </tr>
+
+                    <tr>
+                        <td>/*_some_comments_*/</td>
+                        <td>Whatever written inside this command “/* */” inside a C program, it will not be considered
+                            for
+                            compilation
+                            and execution.</td>
+                    </tr>
+
+                    <tr>
+                        <td>printf(“Hello_World! “); </td>
+                        <td>This command prints the output on the screen.</td>
+                    </tr>
+                    <tr>
+                        <td>getch();</td>
+                        <td>This command is used for any character input from keyboard.</td>
+                    </tr>
+                    <tr>
+                        <td>return 0;</td>
+                        <td>This command is used to terminate a C program (main function) and it returns 0.</td>
+                    <tr>
+                        <td>}</td>
+                        <td>It is used to indicate the end of the main function</td>
+                    </tr>
+                </table>
+            </blockquote>
+        </div> <br>
+        <hr>
+
+ <div id=Fundamentals_of_C>
+
+        <h2>C Language Fundamentals</h2>
+
+        <h3><u>Token:</u></h3>
+        <p>The smallest element identified bt compiler in a C program called as <b>Token.</b> It may be single character
+            or
+            sequence of charatcters.Genarally C Supports <b>Six</b> Types of Tokens:</p>
+        <img src="10.png" alt="Loading" height="360" width="460">
+
+
+        <p><b>1. Keywords:</b> Keywords are predefined, reserved words used in programming that have special meanings to
+            the
+            compiler. Keywords
+            are part of the syntax and they cannot be used as an identifier. As C is a case sensitive language, all
+            keywords
+            must be written in lowercase. Here is a list of all keywords allowed in ANSI C.</p>
+
+        <img src="9.jpg" alt="Loading" height="340" width="500" >
+
+        <p><b>2. Identifier:</b> Identifiers are names given to different entities such as constants, variables,
+            structures,
+            functions, etc.</p>
+        <p style="color:red">Example:</p>
+
+        <img src="5.png" alt="Loading" height="100" width="1000" border="1">
+        <p>In the above example, <b>amount</b> and <b>totalbalance</b> are identifiers and int, and double are keywords.
+        </p>
+
+        <p><b>3. Constant:</b> Constant are data values that never changes their values during progrm exacution.</p>
+
+        <img src="11.jpg" alt="Loading" height="320" width="500" >
+
+        <p><b>4. String:</b> String is a sequence of characters.In C strings are nothing but an array of characters
+            ended
+            with a null character ('\0').This null character indicates the end of the string. Strings are always
+            enclosed in
+            double quotes. Whereas, a character is enclosed in single quotes in C. Declarations for String:</p>
+
+        <ul>
+            <li>char string[20] = { 'f', 'o', 'r','g', 'e', 'e', 'k', 's','e', 'k', 's', 'g', 'e', '\0'};</li>
+
+            <li>char string[20] = "Nusrat";</li>
+
+            <li>char string [] = "Nusrat";</li>
+        </ul>
+
+        <p><b>5. Special symbol:</b>The following special symbols are used in C having some special meaning and thus,
+            cannot
+            be used for some other purpose.[] () {}, ; * = #</p>
+        <img src="13.png" alt="Loading" height="320" width="500" border="1">
+
+        <p><b>6.Operators:</b>An operator is a symbol that takes one or more arguments and operates on them to produce a
+            result. Operators are of many types and are considered in operator chapter
+
+
+
+            There are many types of operators in C which are given below:</p>
+
+        <ul>
+            <li> Unary Operator,</li>
+
+            <li>Arithmetic Operator,</li>
+
+            <li>shift Operator,</li>
+
+            <li>Relational Operator,</li>
+
+            <li>Bitwise Operator,</li>
+
+            <li>Logical Operator,</li>
+
+            <li>Ternary Operator and</li>
+
+            <li>Assignment Operator.</li>
+
+        </ul>
+</div>
+        <hr>
+
+<div id=Data_Types>
+
+        <h2>C Data Types</h2>
+        <p>A data type specifies the type of data that a variable can store such as integer, floating, character, etc.
+            There
+            are the following data types in C language.</p> <br>
+
+        <img src="17.png" alt="Loading" height="400" width="700">
+</div>
+
+<div id= Variables> 
+        <h2>C Variables</h2>
+        <p>Variables are memory locations(storage area) in the C programming language.
+            Some rules in choosing Variables name: </p>
+
+        <ul>
+            <li>A variable name can consist of Capital letters A-Z, lowercase letters a-z, digits 0-9, and the
+                underscore
+                character.</li>
+            <li>The first character must be a letter or underscore.</li>
+            <li>Blank spaces cannot be used in variable names.</li>
+            <li>Special characters like #, $ are not allowed.</li>
+            <li>C keywords cannot be used as variable names.</li>
+            <li>Variable names are case sensitive.</li>
+            <li>Values of the variables can be numeric or alphabetic.</li>
+            <li>Variable type can be char, int, float, double, or void.</li>
+        </ul>
+
+        <p style="color:red">syntex:</p>
+        <pre>
+    type variable_name;
+        </pre>
+
+        <p style="color:red">Example:</p>
+
+        <pre>
+
+    int main()
+    {
+        int age =22; // c program to print value of a variable
+        printf("I am %d years old.\n", age);
+    }
+
+</pre>
+
+        <h2>C Program Structure</h2>
+        <p>The example discussed above illustrates how a simple C program looks like and how the program segment works.
+            A C
+            program may contain one or more sections which are figured above.</p>
+        <br><br><img src="3.png" alt="Loading" height="500" width="700" >
+</div>
+        <hr>
+
+<div id='Conditional_op'>
+    
+        <h2>C if...else Statement</h2>
+        <p>Programming language uses control statements to cause the flow of execution to advance and branch based on
+            changes to the state of a program.Selection statements (if-else, switch) allow your program to choose
+            different
+            paths of execution based upon the outcome of an expression or the state of a variable.
+
+            C supports various selection statements, like if, if-else and switch . These statements allow us to control
+            the
+            flow of our program's execution based upon conditions known only during run time.Many times, we need to
+            first
+            see the condition and then make a decision.
+            <br>As an example, consider that a chocolate costs 10 rupees. So, if you have 10 rupees or more, you can buy
+            the
+            chocolate. <br>
+            <img src="16.png" alt="Loading" height="500" width="700">
+
+            But how do we represent this scenario in C? This type of decision taking is done by using if statement in C.
+            <br>
+            This is a very simple code only to make you understand the use of if,else_if and else. There can be any
+            number
+            of else if between if and else.<br>
+        </p>
+
+        <img src="19.jpg" alt="Loading" height="400" width="600">
+        <hr>
+</div>
+
+<div id="Loop">
+        <h2>C Loop</h2>
+        <p> In programming, a loop is used to repeat a block of code until the specified condition is met.C programming
+            has
+            three types of loops:</p>
+        <img src="18.png" alt="Loading" height="400" width="600">
+
+        <br>
+        <p><b><u>For Loop:</u></b> A for loop is a more efficient loop structure in 'C' programming. The general
+            structure of
+            for loop syntax in C is as follows: </p>
+        <img src="21.png" alt="Loading" border="1" height="150" width="800">
+
+        <p>Following program illustrates the for loop in C programming example:</p>
+        <img src="22.png" alt="Loading" border="1" height="300" width="800">
+
+        <p style="color:red">Output:</p>
+        <img src="23.png" alt="Loading" border="1" height="300" width="800">
+
+        <br>
+        <p><b><u>While Loop:</u></b> A while loop is the most straightforward looping structure. While loop syntax in C
+            programming language is as follows:
+
+            Syntax of while loop in C programming language is as follows: </p>
+        <img src="27.png" alt="Loading" border="1" height="130" width="800">
+
+        <p>Following program illustrates the while loop in C programming example:</p>
+        <img src="28.png" alt="Loading" border="1" height="300" width="700">
+
+        <p style="color:red">Output:</p>
+        <img src="23.png" alt="Loading" border="1" height="300" width="700">
+
+        <br>
+
+        <p><b><u>Do while Loop:</u></b> A do…while loop in C is similar to the while loop except that the condition is
+            always
+            executed after the body of a loop. It is also called an exit-controlled loop.
+
+            Syntax of do while loop in C programming language is as follows: </p>
+        <img src="24.png" alt="Loading" border="1" height="150" width="800">
+
+        <p>Following program illustrates the do while loop in C programming example:</p>
+        <img src="25.png" alt="Loading" border="1" height="300" width="700">
+
+        <p style="color:red">Output:</p>
+        <img src="26.png" alt="Loading"border="1"height="300" width="700">
+
+        <hr>
+</div>
+
+<div id=array>
+        <h2><u>C Arrays</u></h2>
+        <p>An array is a variable that can store multiple values. For example, if you want to store 100 integers, you can
+            create an array for it.</p>
+        <p><strong style="color: brown;">int</strong> data [<strong style="color: chocolate;">100</strong>];</p>
+        <img src="30.jpg" alt="Loading" height="300" width="700"border="1">
+        <br>
+
+        <h3>How to declare an array?</h3>
+    <p>dataType arrayName[arraySize];</p>
+    <strong>
+        <h3 style="color: rgb(87, 84, 84);">For example:</h3>
+    </strong>
+    <pre>
+    float mark[5];
+
+    Here, we declared an array,<strong>mark</strong>, of floating-point type. And its size is 5. Meaning, it can hold 5
+    floating-point values. It's important to note that the size and type of an array cannot be changed once it is declared.
+
+    </pre>
+
+    <h3>How to initialize an array?</h3>
+    <p><strong style="color: brown;">int</strong> data [<strong style="color: chocolate;">5</strong>] = {<strong
+            style="color: chocolate;">19, 10, 8, 17, 9</strong>};</p>
+    <p>Here, we haven't specified the size. However, the compiler knows its size is 5 as we are initializing it with 5
+        elements.</p>
+</div>
+<hr>
+
+<div id=function>
+        <h2>C Function</h2>
+
+        <p>C function is a self-contained block of statements that can be executed repeatedly whenever we need it.There
+            are two types of function:</p>
+        <ol>
+            <li><b>Built-in(Library) Functions:</b>
+                    <ul>
+                        <li>The system provided these functions and stored in the library. Therefore it is also called
+                            Library Functions.e.g. scanf(), printf(), strcpy, strlwr, strcmp, strlen, strcat etc.</li>
+                        <li>To use these functions, you just need to include the appropriate C header files.</li>
+                    </ul>
+                </b></li>
+            <li><b>User Defined Functions</b> are defined by the user at the time of writing the program.</li>
+        </ol>
+
+<p style="font-size: medium;"><u>Parts of functions</u></p>
+        <ul>
+            <li>Function Prototype (function declaration)</li>
+            <li> Function Definition</li>
+            <li> Function Call</li>
+        </ul>
+
+ <p><b>Program to illustrate the addition to two numbers using user defined functions:</b></p>  
+ <img src="29.png" alt="Loading" border="1" height="400" width="700">
+
+</div>
+ <hr>
+ </blockquote>
+</body>
+
+</html>
